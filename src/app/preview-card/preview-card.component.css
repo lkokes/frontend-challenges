@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+body {
+  color: hsl(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  margin: -5% 16%;
+  padding: 9%;
+}
+
+section {
+  height: 350px;
+  width: 260px;
+  padding: 35px;
+}
+
+section#sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+section#suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+section#luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-family: "Big Shoulders Display", cursive;
+}
+
+p {
+  color: #ffffffb5;
+  font-size: 13px;
+  margin: 0px 12px 12px;
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  width: 120px;
+  height: 33px;
+  border-radius: 20px;
+  padding-left: 9px;
+  margin: 40% 15% 19% 15%;
+}
+
+section#sedans button {
+  color: hsl(31, 77%, 52%);
+}
+
+section#suvs button {
+  color: hsl(184, 100%, 22%);
+}
+
+section#luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+footer .attribution {
+  color: #000;
+  font-size: 11px;
+  position: absolute;
+  bottom: 10px;
+  left: 43%;
+}
+
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 780px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .attribution {
+    position: absolute;
+    bottom: -95%;
+    left: 33%;
+  }
+}
+
+/* ## Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
