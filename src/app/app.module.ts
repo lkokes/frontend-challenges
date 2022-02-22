@@ -10,6 +10,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { QrCodeComponent } from './qr-code/qr-code.component';
 import { SocialProofSectionComponent } from './social-proof-section/social-proof-section.component';
 import { PreviewCardComponent } from './preview-card/preview-card.component';
+import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PreviewCardComponent } from './preview-card/preview-card.component';
     NavigationComponent,
     QrCodeComponent,
     SocialProofSectionComponent,
-    PreviewCardComponent
+    PreviewCardComponent,
+    HuddleLandingPageComponent
   ],
   imports: [
     BrowserModule,
