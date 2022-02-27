@@ -11,6 +11,7 @@ import { QrCodeComponent } from './qr-code/qr-code.component';
 import { SocialProofSectionComponent } from './social-proof-section/social-proof-section.component';
 import { PreviewCardComponent } from './preview-card/preview-card.component';
 import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing-page.component';
+import { ClipboardLandingPageComponent } from './clipboard-landing-page/clipboard-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing
     QrCodeComponent,
     SocialProofSectionComponent,
     PreviewCardComponent,
-    HuddleLandingPageComponent
+    HuddleLandingPageComponent,
+    ClipboardLandingPageComponent
   ],
   imports: [
     BrowserModule,

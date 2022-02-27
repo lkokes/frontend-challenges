@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+/* GENERAL */
+
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  padding: 1% 32%;
+  font-size: 14px;
+  color: hsl(201, 11%, 66%);
+  text-align: center;
+  font-weight: 400;
+}
+
+/* BACKGROUND LOGO */
+
+img.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -111;
+}
+
+img.logo-c {
+  position: relative;
+  top: 10%;
+  left: 45%;
+  width: 6%;
+}
+
+/* HEADER */
+
+header,
+section.clipboard-for-iOS-and-Mac {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  margin-top: 8%;
+  margin-left: -4%;
+}
+
+.buttons {
+  width: 25%;
+}
+
+button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 45%;
+  border-radius: 20px;
+  font-size: 13px;
+  box-shadow: 0px -3px 0px 0px hsla(0, 0%, 0%, 0.15) inset;
+}
+
+button.iOS {
+  background-color: hsl(171, 66%, 44%);
+}
+
+button.iOS:hover {
+  box-shadow: 0px -3px 0px 0px hsla(0, 0%, 0%, 0.15) inset,
+    0px 10px 20px 0px hsla(160, 64%, 72%, 0.5);
+}
+
+button.Mac {
+  background-color: hsl(233, 100%, 69%);
+  margin-left: 2%;
+}
+
+button.Mac:hover {
+  box-shadow: 0px -3px 0px 0px hsla(0, 0%, 0%, 0.15) inset,
+    0px 10px 20px 0px hsla(222, 64%, 72%, 0.5);
+}
+
+/* OVERVIEW SECTION */
+
+.clipboard-overview__header {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 0;
+}
+
+.clipboard-overview__header h2 {
+  padding-top: 3%;
+  text-align: center;
+  padding-right: 4%;
+}
+
+.clipboard-overview__header p {
+  padding: 1% 33% 1% 30%;
+}
+
+.clipboard-overview__container {
+  display: flex;
+  margin-top: 3%;
+}
+
+.clipboard-overview__description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.clipboard-overview__description-content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20%;
+  padding-top: 8%;
+}
+.clipboard-overview__description p {
+  padding: 0 30% 0 0;
+  color: hsl(201, 11%, 66%);
+  font-weight: 400;
+  text-align: left;
+}
+
+img.computer {
+  margin-left: -3%;
+}
+
+img.devices {
+  margin-left: 22%;
+  width: 50%;
+}
+
+/* PARTNERS SECTION */
+
+.clipboard-partners__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clipboard-partners__container {
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  margin: 0 15%;
+}
+
+.clipboard-partners__container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.clipboard-partners__container-content p {
+  padding: 0;
+  width: 88%;
+}
+
+.clipboard-partners__container-content h3 {
+  padding: 5%;
+}
+
+.companies-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7%;
+}
+
+/* FOOTER */
+
+.clipboard-footer__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  color: hsl(210, 10%, 33%);
+  margin-top: 5%;
+  padding: 2% 0;
+}
+
+img.logo-c-footer {
+  width: 3%;
+}
+
+a {
+  text-align: left;
+  text-decoration: none;
+  font-weight: 400;
+  width: 95px;
+  color: #4c545c;
+}
+
+.footer-links {
+  display: grid;
+  justify-items: start;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 70px;
+  row-gap: 10px;
+  margin-left: -15%;
+}
+
+img.icon {
+  padding: 0 10px;
+}
