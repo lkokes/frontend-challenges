@@ -51,7 +51,7 @@ img.logo-c {
   position: relative;
   top: 10%;
   left: 45%;
-  width: 6%;
+  width: 100px;
 }
 
 /* HEADER */
@@ -226,4 +226,161 @@ a {
 
 img.icon {
   padding: 0 10px;
+}
+
+@media screen and (max-width: 1300px) {
+  button {
+    width: 100%;
+    margin-top: 5%;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  h1 {
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  img.computer {
+    width: 45%;
+    margin: auto;
+  }
+
+  .clipboard-overview__container {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    padding-left: 19%;
+    text-align: center;
+    margin-right: 15%;
+  }
+
+  .clipboard-partners__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 15%;
+  }
+
+  .clipboard-partners__container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+
+  .clipboard-partners__container-content img {
+    margin: 10% 0;
+  }
+
+  .companies-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 25%;
+  }
+
+  .companies-logos img {
+    padding: 8% 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    margin-top: 15%;
+  }
+
+  p {
+    padding: 2% 21%;
+    font-size: 14px;
+  }
+  button {
+    width: 250%;
+    margin-top: 10%;
+    margin-left: 2%;
+  }
+
+  .buttons {
+    width: 25%;
+    margin-left: -38%;
+    margin-bottom: 15%;
+  }
+
+  .clipboard-overview__header p {
+    padding: 1% 25% 1% 18%;
+  }
+
+  img.computer {
+    width: 70%;
+    margin: auto;
+  }
+
+  h3 {
+    padding-left: 15%;
+  }
+
+  h3.history {
+    padding-left: 10%;
+  }
+
+  .clipboard-overview__description p {
+    text-align: center;
+    padding-left: 3%;
+  }
+
+  .clipboard-overview__header h2 {
+    padding-top: 15%;
+  }
+
+  img.devices {
+    margin-left: 12%;
+    width: 70%;
+  }
+
+  .clipboard-partners__container-content {
+    width: 95%;
+  }
+
+  .companies-logos {
+    margin: 15% 7%;
+  }
+
+  .clipboard-footer__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  img.logo-c-footer {
+    width: 10%;
+    padding: 5% 0;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15%;
+  }
+
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    padding: 5% 0;
+  }
+
+  img.icon {
+    padding: 10px;
+  }
+
+  a {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    padding: 10% 0;
+  }
 }
