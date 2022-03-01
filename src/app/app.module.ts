@@ -12,6 +12,7 @@ import { SocialProofSectionComponent } from './social-proof-section/social-proof
 import { PreviewCardComponent } from './preview-card/preview-card.component';
 import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing-page.component';
 import { ClipboardLandingPageComponent } from './clipboard-landing-page/clipboard-landing-page.component';
+import { TipCalculatorAppComponent } from './tip-calculator-app/tip-calculator-app.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ClipboardLandingPageComponent } from './clipboard-landing-page/clipboar
     SocialProofSectionComponent,
     PreviewCardComponent,
     HuddleLandingPageComponent,
-    ClipboardLandingPageComponent
+    ClipboardLandingPageComponent,
+    TipCalculatorAppComponent
   ],
   imports: [
     BrowserModule,

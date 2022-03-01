@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+/* general */
+
+body {
+  background-color: hsl(185, 41%, 84%);
+  color: hsl(186, 14%, 43%);
+  height: max-content;
+  min-height: 100vh;
+}
+
+body,
+button,
+input {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+p {
+  padding-left: 20px;
+  font-weight: 500;
+}
+
+.container {
+  background-color: white;
+  border: 3px hsl(185, 41%, 84%) solid;
+  border-radius: 30px;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* svg */
+
+svg#logo {
+  position: relative;
+  top: 100px;
+  left: 50%;
+}
+
+svg#icon-dollar,
+svg#icon-person {
+  position: relative;
+  left: 30px;
+}
+
+/* inputs */
+
+input,
+button {
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+input,
+input:focus {
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  text-align: right;
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+input:focus {
+  outline-style: none !important;
+  outline: none !important;
+  outline: 0 !important;
+  border: 2px solid hsl(172, 67%, 45%);
+}
+
+input#bill::placeholder,
+input#custom::placeholder,
+input#people::placeholder {
+  color: #c3d6d7;
+}
+
+input#custom {
+  width: 25%;
+  height: 35px;
+  margin-left: 17px;
+  font-size: 18px;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input#amount,
+input#total,
+input#amount::placeholder,
+input#total::placeholder {
+  width: 130px;
+  color: hsl(172, 67%, 45%);
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 8%;
+}
+
+/* buttons */
+
+button {
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  width: 25%;
+  height: 35px;
+  margin: 0px -10px 10px 18px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button#reset {
+  width: 80%;
+  text-align: center;
+  margin-left: 10%;
+  position: relative;
+  top: 35%;
+  color: hsl(183, 100%, 15%);
+  background-color: #20696c;
+  border: none;
+}
+
+button:hover,
+button#reset:hover {
+  background-color: hsl(172, 65%, 72%);
+  color: hsl(183, 100%, 15%);
+  border: none;
+}
+
+.people,
+.buttons {
+  margin-top: 5%;
+}
+
+.form {
+  width: 50%;
+}
+
+.results {
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 25px;
+  width: 50%;
+  color: white;
+  display: grid;
+  align-content: stretch;
+  align-items: start;
+}
+
+.results p {
+  padding-left: 40px;
+  font-size: 10px;
+}
+
+.result-total,
+.result-amount {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-bottom: -15%;
+}
+
+.result-amount {
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 1100px) {
+  .form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+  }
+
+  .container {
+    width: 40%;
+    height: 100%;
+    margin-left: 33%;
+    margin-top: 12%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .results {
+    width: 82%;
+    height: 250px;
+    margin-right: 12%;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  svg#logo {
+    top: 80px;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .container {
+    width: 75%;
+    height: 100%;
+    margin-left: 10%;
+  }
+
+  svg#logo {
+    top: 45px;
+    left: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .container {
+    width: 75%;
+    height: 100%;
+    margin-left: 10%;
+  }
+}

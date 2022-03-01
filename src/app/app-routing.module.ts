@@ -5,13 +5,15 @@ import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing
 import { PreviewCardComponent } from './preview-card/preview-card.component';
 import { QrCodeComponent } from './qr-code/qr-code.component';
 import { SocialProofSectionComponent } from './social-proof-section/social-proof-section.component';
+import { TipCalculatorAppComponent } from './tip-calculator-app/tip-calculator-app.component';
 
 const routes: Routes = [
   { path: 'qr-code', component: QrCodeComponent },
   { path: 'social-proof-section', component: SocialProofSectionComponent },
   { path: '3-column-preview-card', component: PreviewCardComponent },
   { path: 'huddle-landing-page', component: HuddleLandingPageComponent },
-  { path: 'clipboard-landing-page', component: ClipboardLandingPageComponent }
+  { path: 'clipboard-landing-page', component: ClipboardLandingPageComponent },
+  { path: 'tip-calculator-app', component: TipCalculatorAppComponent }
 ];
 
 @NgModule({
