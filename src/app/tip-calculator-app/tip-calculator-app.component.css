@@ -130,7 +130,8 @@ button#reset {
 }
 
 button:hover,
-button#reset:hover {
+button#reset:hover,
+button:focus {
   background-color: hsl(172, 65%, 72%);
   color: hsl(183, 100%, 15%);
   border: none;
