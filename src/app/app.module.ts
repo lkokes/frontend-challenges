@@ -13,6 +13,7 @@ import { PreviewCardComponent } from './preview-card/preview-card.component';
 import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing-page.component';
 import { ClipboardLandingPageComponent } from './clipboard-landing-page/clipboard-landing-page.component';
 import { TipCalculatorAppComponent } from './tip-calculator-app/tip-calculator-app.component';
+import { TimeTrackingDashboardComponent } from './time-tracking-dashboard/time-tracking-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { TipCalculatorAppComponent } from './tip-calculator-app/tip-calculator-a
     PreviewCardComponent,
     HuddleLandingPageComponent,
     ClipboardLandingPageComponent,
-    TipCalculatorAppComponent
+    TipCalculatorAppComponent,
+    TimeTrackingDashboardComponent
   ],
   imports: [
     BrowserModule,
