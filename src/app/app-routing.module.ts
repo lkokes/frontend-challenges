@@ -5,6 +5,7 @@ import { HuddleLandingPageComponent } from './huddle-landing-page/huddle-landing
 import { PreviewCardComponent } from './preview-card/preview-card.component';
 import { QrCodeComponent } from './qr-code/qr-code.component';
 import { SocialProofSectionComponent } from './social-proof-section/social-proof-section.component';
+import { TestimonialsGridSectionComponent } from './testimonials-grid-section/testimonials-grid-section.component';
 import { TipCalculatorAppComponent } from './tip-calculator-app/tip-calculator-app.component';
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: '3-column-preview-card', component: PreviewCardComponent },
   { path: 'huddle-landing-page', component: HuddleLandingPageComponent },
   { path: 'clipboard-landing-page', component: ClipboardLandingPageComponent },
-  { path: 'tip-calculator-app', component: TipCalculatorAppComponent }
+  { path: 'tip-calculator-app', component: TipCalculatorAppComponent },
+  { path: 'testimonials-grid-section', component: TestimonialsGridSectionComponent }
 ];
 
 @NgModule({
